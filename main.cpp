@@ -49,7 +49,7 @@ int main(){
         printf("\nNilai terbesar dalah : %d", tbk);
         printf("\n====================================");
 
-        menupilih(dafnilai);
+        menucari(dafnilai);
       return 0;
 
 }
@@ -67,6 +67,7 @@ int terbesar(nilaimhs* dafnilai){
                 tbk = dafnilai[i].nilai;
         }
     }
+    return tbk;
 }
 
 void menucari(nilaimhs* dafnilai){
